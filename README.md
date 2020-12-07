@@ -1,4 +1,4 @@
-#GithubSearch
+# GithubSearch
 
 Para hacer el levantamiento del proyecto 
 
@@ -8,5 +8,5 @@ Para hacer el levantamiento del proyecto
 4. Ya cuando se termine de ejecutar el npm install, hacer un **npm start**
 
 
-#Heroku
+# Heroku
 https://evaluacion-accenture.herokuapp.com/
