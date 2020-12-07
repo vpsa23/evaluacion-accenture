@@ -1,0 +1,28 @@
+@import '../../scss/var';
+
+.page-details {
+    margin-top: 35px;
+
+    .page-home-title {
+        margin-right: 70px;
+    }
+
+    .page-home-title-github,
+    .page-home-title-search {
+        font-size: 40px;
+    }
+}
+
+.page-details-general-info-user {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.page-details-repositories {
+    width: 100%;
+    margin-left: 72px;
+    height: 620px;
+    overflow: hidden;
+    overflow-y: scroll;
+}

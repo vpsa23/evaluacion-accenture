@@ -1,0 +1,57 @@
+@import '../../scss/var';
+
+.details-user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-user-image {
+    width: 280px;
+    height: 280px;
+    border-radius: 4px;
+    box-shadow: $shadow;
+}
+
+.details-user-name {
+    font-size: 35px;
+    font-weight: 300;
+    margin-top: 12px;
+    text-decoration: none;
+    color: $black;
+}
+
+.details-user-nickname, .details-user-bio, .details-user-email {
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 7px;
+    color: $brown;
+}
+
+.details-user-more-info {
+    margin-top: 28px;
+}
+
+.details-user-more-info-list {
+    padding: 0;
+    list-style: none;
+}
+
+.details-user-more-info-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 14px;
+    
+
+    img {
+        margin-right: 7px;
+    }
+
+    span {
+        color: $brown;
+    }
+
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
