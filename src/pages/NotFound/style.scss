@@ -1,0 +1,27 @@
+@import '../../scss/var';
+
+.page-not-found {
+    margin: 35px 25px 0;
+
+    .search-component {
+        justify-content: flex-start;
+    }
+
+    .page-home-title {
+        margin-right: 70px;
+    }
+
+    .page-home-title-github,
+    .page-home-title-search {
+        font-size: 40px;
+    }
+}
+
+.user-not-found {
+    font-family: 'Raleway';
+    color: $purple;
+    width: 100%;
+    text-align: center;
+    margin-top: 118px;
+    font-size: 40px;
+}
